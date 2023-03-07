@@ -1,0 +1,165 @@
+/*
+
+https://github.io/grishaosher
+
+https://t.me/web_surfers
+
+*/
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #e1e1ff30;
+}
+
+* { margin: 0; padding: 0; }
+/* p { padding: 5px; } */
+.left { position: absolute; left: 0; top: 0; width: 50%; padding-top:50px; }
+.right { position: absolute; right: 0; top: 0; width: 50%;margin-top:50px; } 
+
+/* .rescont{
+    padding-top: 100px;
+} */
+
+.left{
+    background-image: url(../img/bg.png);
+    background-size: 100% auto; /* width and height, can be %, px or whatever. */
+    height: 100%;
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+.left h1{
+    padding-top: 324px;
+    margin-left: 80px;
+    color:white;
+    font-style: italic;
+    font-size: 56px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.reg-form{
+    width: 400px;
+    height: 450px;
+    margin-left: 143px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.reg-form h2{
+    font-weight:bold;
+    font-style:initial;
+    text-align: left;
+    margin-left: 7px;
+}
+
+.reg-form input{
+    width: 380px;
+    height: 48px;
+    border-radius: 11px;
+    border-color: #bebebf72;
+}
+
+input[type=Email]::placeholder{
+    color:#BEBEBF;
+    padding-left: 13px;
+}
+
+input[type=Password]::placeholder{
+    color:#BEBEBF;
+    padding-left: 13px;
+}
+
+.reg-form input:hover{
+    border-color: #bcd9f7;
+    cursor: pointer;
+}
+
+.reg-form p{
+    text-align: left;
+    padding-top: 5px;
+    color: #5A5A5D;
+    font-style:initial;
+    padding-left: 8px;
+}
+
+.LoginText{
+    color: #BEBEBF;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.LoginText p{
+    color: #BEBEBF;
+}
+
+.LoginText a{
+    color: #007DFA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.LoginText a:hover {
+    text-decoration: none;
+}
+
+.p-pass{
+    margin-top: 13px;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+.btnsign {
+    width: 380px;
+    height: 48px;
+    background-color: #007DFA;
+    color: #fff;
+    border-radius: 11px;
+    border-color:#007DFA ;
+    margin-top: 10px;
+    font-size:18px;
+    font-weight: bold;
+    border: 0;
+}
+
+.googlebtn{
+    width: 380px;
+    height: 48px;
+    background-color: #E0EFFE;
+    color: #007DFA;
+    border-radius: 11px;
+    border-color:#E0EFFE ;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: 50px;
+    font-size:20px;
+    font-weight: bold;
+    border: 0;
+}
+
+.googlebtn img{
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.btnsign:hover{
+    background-color: #0576e7;
+    border-color:#0576e7 ;
+}
+
+.googlebtn:hover{
+    background-color: #d8eafc;
+}
+
+/* МОДАЛЬНОЕ ОКНО */
